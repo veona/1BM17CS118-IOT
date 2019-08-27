@@ -13,7 +13,7 @@ if(Serial.available()>0)
   if(data=='A')
   digitalWrite(led,HIGH);
   else if(data=='B')
-  digitalWrite(lep,LOW);
+  digitalWrite(led,LOW);
   
 }
 delay(1000);
